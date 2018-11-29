@@ -4,7 +4,8 @@
   .header {
     height: 64px;
   }
-  .menu ul {
+
+  .menu nav ul {
     display: none;
   }
 
@@ -21,7 +22,7 @@
     display: none;
   }
 
-  .o_right_block img{
+  .o_right_block img {
     padding-top: 16px;
     padding-left: 16px;
   }
@@ -38,6 +39,7 @@
 
 
 /* universal styling */
+
 h1,
 h2,
 h3 {
@@ -45,13 +47,11 @@ h3 {
 }
 
 .orientation h4 {
-
   font-weight: normal;
 }
 
 * {
   font-family: sans-serif;
-
 }
 
 .caption {
@@ -59,7 +59,8 @@ h3 {
 }
 
 h3 {
-  color: rgb(163, 33, 29);
+  /*color: rgb(163, 33, 29);*/
+  color: green;
 }
 
 #banner {
