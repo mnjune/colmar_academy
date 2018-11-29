@@ -59,12 +59,12 @@ h3 {
 }
 
 h3 {
-  /*color: rgb(163, 33, 29);*/
-  color: green;
+  color: rgb(163, 33, 29);
 }
 
 #banner {
-  background-color: rgb(211,211,211);
+/*  background-color: rgb(211,211,211);*/
+background-color: orange;
 ;
 }
 
