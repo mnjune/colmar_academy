@@ -1,15 +1,33 @@
 /*  media */
 
 @media only screen and (max-height: 481px) {
-  .header {
-    height: 64px;
-  }
 
-  .menu ul {
+  header {
     display: none;
   }
 
-  .truncated-menu ul {
+  .truncated-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .truncated-header .logo div {
+    display: flex;
+  }
+
+  .truncated-header img {
+    width: 20px;
+  }
+
+
+  .truncated-header {
+    height: 64px;
+  }
+
+
+  .truncated-header {
     display: flex;
   }
 
@@ -119,7 +137,7 @@ h4 {
 
 /* header */
 
-header .truncated-menu {
+.truncated-header {
   display: none;
 }
 
