@@ -256,9 +256,10 @@ item {
   /*height: auto;*/
 }
 
+
+
 .o_right_block  {
   width: 100%;
-  height: auto;
   padding-left: 16px;
   display: flex;
   flex-direction: row;
@@ -269,6 +270,7 @@ item {
 .o_right_block img {
   /*height: auto;*/
   width: 35%;
+  height: auto;
   padding: 16px;
 }
 
