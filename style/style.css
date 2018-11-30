@@ -1,7 +1,6 @@
 /*  media */
 
-@media only screen and (max-width: 320px) {
-
+@media only screen and (min-width: 200px) and (max-width: 700px) {
   header {
     display: none;
   }
@@ -11,25 +10,14 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-  }
 
-  .truncated-header .logo div {
-    display: flex;
+      height: 64px;
   }
 
   .truncated-header img {
     width: 20px;
   }
 
-
-  .truncated-header {
-    height: 64px;
-  }
-
-
-  .truncated-header {
-    display: flex;
-  }
 
   .banner {
     display: flex;
