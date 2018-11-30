@@ -1,6 +1,6 @@
 /*  media */
 
-@media only screen and (max-height: 481px) {
+@media only screen and (max-width: 320px) {
 
   header {
     display: none;
