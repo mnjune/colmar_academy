@@ -5,11 +5,11 @@
     height: 64px;
   }
 
-  .menu nav ul {
+  .menu ul {
     display: none;
   }
 
-  .menu ul.truncated-menu {
+  .truncated-menu ul {
     display: flex;
   }
 
@@ -64,7 +64,6 @@ h3 {
 
 #banner {
 background-color: rgb(211,211,211);
-
 }
 
 
@@ -120,7 +119,9 @@ h4 {
 
 /* header */
 
-
+header .truncated-menu {
+  display: none;
+}
 
 header {
   display: flex;
