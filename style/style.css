@@ -1,17 +1,24 @@
 /*  media */
 
-@media only screen and (min-width: 200px) and (max-width: 700px) {
+@media only screen and (max-width: 400px) {
   header {
     display: none;
   }
 
-  .truncated-header {
+  .logo {
+    display: none;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .truncated-header .truncated-menu {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
-      height: 64px;
+    height: 64px;
   }
 
   .truncated-header img {
@@ -126,7 +133,7 @@ h4 {
 /* header */
 
 .truncated-header {
-  display: none;
+  display: hidden;
 }
 
 header {
