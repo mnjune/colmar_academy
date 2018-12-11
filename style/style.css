@@ -183,7 +183,7 @@ ul nav {
 /* banner */
 
 @media only screen and (max-width: 400px) {
-  .banner {
+  #banner {
     display: flex;
     direction: column;
     align-items: center;
