@@ -238,15 +238,13 @@ item {
 /* orientation */
 
 @media only screen and (max-width: 400px) {
-  .o_right {
-    width: 100%;
+
+  .orientation .media img {
+    display: block;
   }
 
-  .o_right_block img {
-    /*height: auto;*/
+  .o_right {
     width: 100%;
-    height: auto;
-    padding: 16px;
   }
 
   .o_right_block  {
@@ -256,6 +254,14 @@ item {
     flex-direction: column;
   }
 
+  .o_right_block img {
+    /*height: auto;*/
+    width: 100%;
+    height: auto;
+    padding: 16px;
+  }
+
+
   .o_right_block {
     width: 100%;
     margin-bottom: 64px;
@@ -263,7 +269,10 @@ item {
 
 }
 
-
+/*HIDE MOBILE SIZE IMG IN FULL SIZE SITE*/
+.orientation .media img {
+  display: hidden;
+}
 
 .orientation {
   display: flex;
@@ -330,6 +339,8 @@ h3.block_more {
   font-weight: normal;
   color: ;
 }
+
+
 /* courses - content b*/
 
 .offerings {
