@@ -187,12 +187,13 @@ ul nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     width: 100%;
   }
 
   #banner img {
-    width: 100%;
+    padding: 0;
+    margin: 0;
+    width: auto;
     height: auto;
   }
 }
@@ -235,6 +236,35 @@ item {
 
 
 /* orientation */
+
+@media only screen and (max-width: 400px) {
+  .o_right {
+    width: 100%;
+  }
+
+  .o_right_block img {
+    /*height: auto;*/
+    width: 100%;
+    height: auto;
+    padding: 16px;
+  }
+
+  .o_right_block  {
+    width: 100%;
+    padding-left: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .o_right_block {
+    width: 100%;
+    margin-bottom: 64px;
+  }
+
+}
+
+
+
 .orientation {
   display: flex;
   flex-direction: row;
@@ -283,8 +313,6 @@ item {
   padding-left: 16px;
   display: flex;
   flex-direction: row;
-
-
 }
 
 .o_right_block img {
