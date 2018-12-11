@@ -245,7 +245,7 @@ item {
 
   .orientation .o_right_block img {
     display: none;
-    visibility: hidden;
+
   }
 
   .o_right {
@@ -277,7 +277,6 @@ item {
 /*HIDE MOBILE SIZE IMG IN FULL SIZE SITE*/
 .orientation .o_right_block .media img  {
   display: none;
-  visibility: hidden;
 }
 
 .orientation {
