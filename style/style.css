@@ -243,6 +243,11 @@ item {
     display: block;
   }
 
+  .orientation .o_right_block img {
+    display: none;
+    visibility: hidden;
+  }
+
   .o_right {
     width: 100%;
   }
@@ -254,7 +259,7 @@ item {
     flex-direction: column;
   }
 
-  .o_right_block img {
+  .o_right_block .media img {
     /*height: auto;*/
     width: 100%;
     height: auto;
@@ -270,8 +275,9 @@ item {
 }
 
 /*HIDE MOBILE SIZE IMG IN FULL SIZE SITE*/
-.orientation .media img {
-  display: hidden;
+.orientation .o_right_block .media img  {
+  display: none;
+  visibility: hidden;
 }
 
 .orientation {
