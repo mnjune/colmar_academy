@@ -438,15 +438,19 @@ h4.image {
    /*MOBILE- HIDE FULL-SIZE Offerings DISPLAY: HIDE*/
   .offerings {
     display: none;
+  }
+
+  .mobile-offerings {
     display: flex;
     justify-content: center;
   }
+  
   .mobile-offerings h3 {
     padding-top: 16px;
     padding-left: 16px;
     padding-bottom: 24px;
     margin-bottom: 8px;
-    background-color: red; 
+    background-color: red;
   }
   .mobile-offerings h3 {
 
