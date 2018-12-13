@@ -82,7 +82,7 @@ h4 {
 /* header */
 
 .truncated-header {
-  display: hidden;
+  display: none;
 }
 
 header {
@@ -115,12 +115,8 @@ header h3 {
     display: none;
   }
 
-  .logo {
-    display: none;
-  }
-
-  nav {
-    display: none;
+  .truncated-header {
+    display: block;
   }
 
   .truncated-header .truncated-menu {
@@ -130,6 +126,15 @@ header h3 {
     align-items: center;
     height: 64px;
   }
+  .logo {
+    display: none;
+  }
+
+  nav {
+    display: none;
+  }
+
+
 
   .truncated-header img {
     width: 20px;
@@ -172,11 +177,8 @@ ul nav {
   align-items: center;
   justify-content: center;
   width: 100%;
-
   margin: 0 auto;
-
 }
-
 
 #banner img {
   width: 60%;
@@ -192,9 +194,6 @@ ul nav {
 
 }
 
-
-
-
 @media only screen and (max-width: 400px) {
   #banner {
     display: flex;
@@ -204,10 +203,9 @@ ul nav {
   }
 
   #banner img {
-    padding: 0;
-    margin: 0;
-    width: auto;
+    width: 100%;
     height: auto;
+
   }
 }
 
