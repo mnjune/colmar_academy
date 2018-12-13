@@ -203,7 +203,7 @@ ul nav {
 
 }
 
-}
+
 
 item {
 
@@ -231,7 +231,7 @@ item {
       width: 100%;
     }
 
-    .o_right_block .media img {
+   img.media {
       display: block;
       padding-top: 16px;
       padding-left: 16px;
@@ -254,7 +254,7 @@ item {
 }
 /*END @media*/
 /*FULL SIZE - HIDE MOBILE SIZE IMG*/
-.o_right_block .media img  {
+ img.media  {
   display: none;
 }
 
