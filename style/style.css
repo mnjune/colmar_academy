@@ -231,7 +231,6 @@ item {
       width: 100%;
     }
 
-
     .o_right_block .media img {
       display: block;
       padding-top: 16px;
@@ -240,12 +239,10 @@ item {
       width: 100%;
     }
 
-
     .o_right_block h3 {
       left: 16px;
       position: relative; /*otherwise absolute*/
     }
-
 
     .o_right_block  {
       width: 100%;
@@ -254,13 +251,8 @@ item {
       flex-direction: column;
       margin-bottom: 64px;
     }
-
-
-  .orientation .o_right_block img {
-    display: none;
-  }
 }
-
+/*END @media*/
 /*HIDE MOBILE SIZE IMG IN FULL SIZE SITE*/
 .o_right_block .media img  {
   display: none;
