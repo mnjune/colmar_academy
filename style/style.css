@@ -330,21 +330,9 @@ h3.block_more {
 
 /* OFFERINGS - couurses*/
 
-@media only screen and (max-width: 400px) {
-   /*MOBILE- HIDE FULL-SIZE Offerings DISPLAY: HIDE*/
-  .offerings {
-    display: none;
-  }
-  .mobile-offerings {
-    display: block;
-  }
-}
 
-/*FULL SIZE - HIDE Mobile DISPLAY: HIDE*/
 
-.mobile-offerings {
-  display: none;
-}
+
 
 .offerings {
   background-color: grey;
@@ -441,6 +429,22 @@ h4.image {
 }
 
 
+
+/*FULL SIZE - HIDE Mobile DISPLAY: HIDE*/
+
+.mobile-offerings {
+  display: none;
+}
+
+@media only screen and (max-width: 400px) {
+   /*MOBILE- HIDE FULL-SIZE Offerings DISPLAY: HIDE*/
+  .offerings {
+    display: none;
+  }
+  .mobile-offerings {
+    display: block;
+  }
+}
 /*exhibit  */
 
 .thesis {
