@@ -1,31 +1,3 @@
-/*  media */
-
-@media only screen and (max-width: 400px) {
-  header {
-    display: none;
-  }
-
-  .logo {
-    display: none;
-  }
-
-  nav {
-    display: none;
-  }
-
-  .truncated-header .truncated-menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: 64px;
-  }
-
-  .truncated-header img {
-    width: 20px;
-  }
-
-}
 
 
 /* universal styling */
@@ -136,6 +108,37 @@ header h3 {
 }
 
 
+/*  header media */
+
+@media only screen and (max-width: 400px) {
+  header {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .truncated-header .truncated-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+  }
+
+  .truncated-header img {
+    width: 20px;
+  }
+
+}
+
+/* section name ??*/
+
 
 .offerings .image h4 {
 
@@ -162,21 +165,7 @@ ul nav {
 
 /* banner */
 
-@media only screen and (max-width: 400px) {
-  #banner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
 
-  #banner img {
-    padding: 0;
-    margin: 0;
-    width: auto;
-    height: auto;
-  }
-}
 
 #banner {
   display: flex;
@@ -205,8 +194,21 @@ ul nav {
 
 
 
-item {
 
+@media only screen and (max-width: 400px) {
+  #banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  #banner img {
+    padding: 0;
+    margin: 0;
+    width: auto;
+    height: auto;
+  }
 }
 
 /* body */
@@ -217,46 +219,7 @@ item {
 
 /* orientation */
 
-@media only screen and (max-width: 400px) {
-  /* DISPLAY: NONE */
-    .o_left {
-      display: none;
-    }
 
-    .o_right_block img {
-      display: none;
-    }
-  /* /close DISPLAY: NONE section close*/
-    .o_right {
-      width: 100%;
-    }
-
-   img.media {
-      display: block;
-      padding-top: 16px;
-      padding-left: 16px;
-      height: auto;
-      width: 100%;
-    }
-
-    .o_right_block h3 {
-      left: 16px;
-      position: relative; /*otherwise absolute*/
-    }
-
-    .o_right_block  {
-      width: 100%;
-      padding-left: 16px;
-      display: flex;
-      flex-direction: column;
-      margin-bottom: 64px;
-    }
-}
-/*END @media*/
-/*FULL SIZE - HIDE MOBILE SIZE IMG*/
- img.media  {
-  display: none;
-}
 
 .orientation {
   display: flex;
@@ -297,8 +260,6 @@ item {
   /*height: auto;*/
 }
 
-
-
 .o_right_block  {
   width: 100%;
   padding-left: 16px;
@@ -321,6 +282,50 @@ h3.block_more {
   font-weight: normal;
   color: ;
 }
+
+/*FULL SIZE - HIDE MOBILE SIZE IMG*/
+
+ img.media  {
+  display: none;
+}
+
+@media only screen and (max-width: 400px) {
+  /* DISPLAY: NONE */
+    .o_left {
+      display: none;
+    }
+
+    .o_right_block img {
+      display: none;
+    }
+  /* /close DISPLAY: NONE section close*/
+    .o_right {
+      width: 100%;
+    }
+
+   img.media {
+      display: block;
+      padding-top: 16px;
+      padding-left: 16px;
+      height: auto;
+      width: 100%;
+    }
+
+    .o_right_block h3 {
+      left: 16px;
+      position: relative; /*otherwise absolute*/
+    }
+
+    .o_right_block  {
+      width: 100%;
+      padding-left: 16px;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 64px;
+    }
+}
+/*END @media*/
+
 
 
 /* OFFERINGS - couurses*/
