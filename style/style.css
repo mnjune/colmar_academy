@@ -330,6 +330,7 @@ h3.block_more {
       padding-right: 16px;
       height: auto;
       width: 100%;
+      margin: 0 auto;
     }
 
     .o_right_block h3 {
@@ -582,10 +583,39 @@ h4.image {
   .exhibit_right {
     display: none;
   }
+  .e_right_block {
+    display: none;
+  }
+
+  .thesis_row {
+    width: 100%;
+  }
+
+  .exhibit_left video {
+    margin-bottom: 24px;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .exhibit_left {
+    width: 100%;
+  }
+
   .e_left {
     width: 100%;
   }
-  .exhibit_left span h4 {
+
+  .e_left_block {
+    width: 100%;
+  }
+
+  .exhibit_left h4 {
+    display: none;
+  }
+  .exhibit_left p {
     display: none;
   }
 
@@ -595,6 +625,31 @@ h4.image {
 
 /* footer */
 
-footer p {
+footer h5 {
   color: black;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer .resource {
+  display: flex;
+  flex-direction: row;
+}
+
+.resource h5 {
+  margin-right: 5px;
+}
+
+@media only screen and (max-width: 400px) {
+  footer {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+  footer .resource {
+    display: none;
+  }
 }
