@@ -443,14 +443,27 @@ h4.image {
   .mobile-offerings {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+
   }
-  
+
+  .mobile-offerings li {
+    width: 100%;
+    height: auto;
+    background-color: red;
+    margin-bottom: 6px;
+    margin-top: 2px;
+  }
+
   .mobile-offerings h3 {
+
+    align-self: center;
     padding-top: 16px;
     padding-left: 16px;
     padding-bottom: 24px;
-    margin-bottom: 8px;
-    background-color: red;
+
   }
   .mobile-offerings h3 {
 
