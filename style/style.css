@@ -67,7 +67,7 @@ h4 {
 }
 
 .offerings .caption p {
- color: rgb(211,211,211);
+  color: rgb(211,211,211);
 }
 .offerings h4 {
    color: rgb(163, 33, 29);
@@ -171,7 +171,7 @@ ul nav {
 
 
 
-#banner {
+.banner {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -179,13 +179,13 @@ ul nav {
   margin: 0 auto;
 }
 
-#banner img {
+.banner img {
   width: 60%;
   height: auto;
   padding: 32px 24px;
 }
 
-#banner .text {
+.banner .text {
 
 }
 
@@ -242,6 +242,7 @@ a.button  {
 .o_left {
   width: 60%;
   margin-right: 24px;
+  margin-left: 24px;
 }
 
 .o_left img {
