@@ -258,6 +258,8 @@ ul nav {
   /*height: auto;*/
 }
 
+
+
 .o_right_block  {
   width: 100%;
   padding-left: 16px;
@@ -288,9 +290,18 @@ h3.block_more {
 }
 
 @media only screen and (max-width: 400px) {
-  /* DISPLAY: NONE */
+  /* DISPLAY: NONE and overwrite sizing*/
     .o_left {
       display: none;
+    }
+
+
+    .o_right {
+      width: 100%;
+    }
+    .o_right_block  {
+      width: 100%;
+      padding-left: 0px;
     }
 
     .o_right_block img {
@@ -303,8 +314,10 @@ h3.block_more {
 
    img.media {
       display: block;
+      float: left;
       padding-top: 16px;
       padding-left: 16px;
+      padding-right: 16px;
       height: auto;
       width: 100%;
     }
@@ -448,11 +461,14 @@ h4.image {
     height: auto;
 
   }
+  .mobile-offerings h2 {
+    align-self: center;
+  }
 
-  .mobile-offerings li {
+  .mobile-offerings div {
     width: 100%;
     height: auto;
-    background-color: red;
+    background-color: rgb(163, 33, 29);
     margin-bottom: 6px;
     margin-top: 2px;
   }
@@ -549,6 +565,20 @@ h4.image {
 .exhibit_right {
   display: flex;
   flex-direction: column;
+}
+
+
+@media only screen and (max-width: 400px) {
+  .exhibit_right {
+    display: none;
+  }
+  .e_left {
+    width: 100%;
+  }
+  .exhibit_left span h4 {
+    display: none;
+  }
+
 }
 
 
